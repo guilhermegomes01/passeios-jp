@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Passeio em João Pessoa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="cssPasseios.css" />
+</head>
+
+<body>
+    <!-- Inicio Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="imagens/theme-logo.png" class="img-responsive" alt="Logo" id="logo">
+                </a>
+            </div>
+            <p class="navbar-text">Olá Visitante seja bem vindo</p>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#tiposPasseios">Passeios</a>
+                    </li>
+                    <li>
+                        <a href="#linhaContato">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#googleMap">Localização</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <img src="imagens/banner.jpg" class="img-responsive" alt="Banner" id="imagemBanner">
+
+    <!-- Primeiro Container -->
+    <div class="container" id="primeiroContainer">
+        <div class="row">
+            <h2 id="sobreEmpresa">Quem Somos</h2>
+        </div>
+        <p>A
+            <b> P Travel</b> é uma Agência de Viagens, Turismo e Eventos, especializada em Passeios Náuticos e com foco
+            nos principais pontos turísticos da Paraíba. Nossa equipe é formada por profissionais qualificados e competentes
+            que trabalham para oferecer o melhor serviço a você e toda sua família.
+        </p>
+        <h4 id="sobreEmpresa">Conheça nossas embarcações:</h4>
+        <div class="row">
+            <!-- Linha Embarcação 1 à 3 -->
+            <div class="col-md-4 col-xs-6 col-sm-4">
+                <img src="imagens/100lazer1.jpg" class="img-responsive" alt="Espaço Lazer 100% I" id="imagem100Lazer" data-toggle="modal"
+                    data-target="#modalLazer1">
+                <h5>Embarcação 100% Lazer</h5>
+            </div>
+            <div class="col-md-4 col-xs-6 col-sm-4">
+                <img src="imagens/100lazer2.jpg" class="img-responsive" alt="Espaço Lazer 100% II" id="imagem100Lazer" data-toggle="modal" data-target="#modalLazer2">
+                <h5>Embarcação 100% Lazer II</h5>
+            </div>
+            <div class="col-xs-2"></div>
+            <div class="col-md-4 col-xs-8 col-sm-4">
+                <img src="imagens/100lazer3.jpg" class="img-responsive" alt="Espaço Lazer 100% III" id="imagem100Lazer" data-toggle="modal" data-target="#modalLazer3">
+                <h5>Embarcação 100% Lazer III</h5>
+            </div>
+            <div class="col-xs-2"></div>
+        </div>
+        <div class="row">
+            <!-- Linha Embarcação 4 à 6 -->
+            <div class="col-md-4 col-xs-6 col-sm-4">
+                <img src="imagens/100lazer4.jpg" class="img-responsive" alt="Espaço Lazer 100% IV" id="imagem100Lazer" data-toggle="modal" data-target="#modalLazer4">
+                <h5>Embarcação 100% Lazer IV</h5>
+            </div>
+            <div class="col-md-4 col-xs-6 col-sm-4">
+                <img src="imagens/100lazer5.jpg" class="img-responsive" alt="Espaço Lazer 100% V" id="imagem100Lazer" data-toggle="modal" data-target="#modalLazer5">
+                <h5>Embarcação 100% Lazer V</h5>
+            </div>
+            <div class="col-xs-2"></div>
+            <div class="col-md-4 col-xs-8 col-sm-4">
+                <img src="imagens/100lazer6.jpg" class="img-responsive" alt="Espaço Lazer 100% VI" id="imagem100Lazer" data-toggle="modal" data-target="#modalLazer6">
+                <h5>Embarcação 100% Lazer VI</h5>
+            </div>
+            <div class="col-xs-2"></div>
+        </div>
+        <div class="row">
+            <!-- Linha Embarcação 7 e 10 -->
+            <div class="col-md-2 col-sm-2"></div>
+            <div class="col-md-4 col-xs-6 col-sm-4">
+                <img src="imagens/100lazer7.jpg" class="img-responsive" alt="Espaço Lazer 100% VII" id="imagem100Lazer" data-toggle="modal" data-target="#modalLazer7">
+                <h5>Embarcação 100% Lazer VII</h5>
+            </div>
+            <div class="col-md-4 col-xs-6 col-sm-4">
+                <img src="imagens/100lazer8.jpg" class="img-responsive" alt="Espaço Lazer 100% 10" id="imagem100Lazer" data-toggle="modal" data-target="#modalLazer10">
+                <h5>Embarcação 100% Lazer 10</h5>
+            </div>
+            <div class="col-md-2 col-sm-2"></div>
+        </div>
+        <!-- Tipos de Passeios -->
+        <h2 id="tiposPasseios">Nós também temos esses 2 tipos de passeios:</h2>
+        <div class="row">
+            <div class="col-md-6 col-xs-12 col-sm-6">
+                <button type="button" class="btn btn-default btn-lg" id="buttonPasseio1">Passeios de Barco</button>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-6">
+                <button type="button" class="btn btn-default btn-lg" id="buttonPasseio2">Passeios de Buggy</button>
+            </div>
+        </div>
+        <!-- Container com Passeio de Barco -->
+        <div class="container" id="containerPasseioBarco">
+            <div class="row">
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Piscinas Naturais de Picãozinho</div>
+                        <div class="panel-body">
+                            <img src="imagens/barco1.jpg" class="img-responsive">
+                        </div>
+                        <div class="panel-footer" id="campoValorPNaturais"></div>
+                    </div>
+                    <button type="button" class="btn btn-default btn-block" onclick="mostrarValorPNaturais(20)">Valor s/ Transfer</button>
+                    <button type="button" class="btn btn-default btn-block" id="buttonTransfer" onclick="mostrarValorPNaturais(70)">Valor c/ Transfer</button>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Ilha de Areia Vermelha</div>
+                        <div class="panel-body">
+                            <img src="imagens/barco2.jpg" class="img-responsive">
+                        </div>
+                        <div class="panel-footer" id="campoValorAVermelha"></div>
+                    </div>
+                    <button type="button" class="btn btn-default btn-block" onclick="mostrarValorAVermelha(20)">Valor s/ Transfer</button>
+                    <button type="button" class="btn btn-default btn-block" onclick="mostrarValorAVermelha(80)" id="buttonTransfer">Valor c/ Transfer</button>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Piscinas do Seixas de Catamarã</div>
+                        <div class="panel-body">
+                            <img src="imagens/barco3.jpg" class="img-responsive">
+                        </div>
+                        <div class="panel-footer" id="campoValorSeixas"></div>
+                    </div>
+                    <button type="button" class="btn btn-default btn-block" onclick="mostrarValorSeixas(30)">Valor s/ Transfer</button>
+                    <button type="button" class="btn btn-default btn-block" onclick="mostrarValorSeixas(85)">Valor c/ Transfer</button>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Pôr do Sol na Praia do Jacaré</div>
+                        <div class="panel-body">
+                            <img src="imagens/barco4.jpg" class="img-responsive">
+                        </div>
+                        <div class="panel-footer" id="campoValorPJacare"></div>
+                    </div>
+                    <button type="button" class="btn btn-default btn-block" onclick="mostrarValorPJacare(35)">Valor s/ Transfer</button>
+                    <button type="button" class="btn btn-default btn-block" onclick="mostrarValorPJacare(50)">Valor c/ Transfer</button>
+                </div>
+            </div>
+        </div>
+        <!-- Container Passeio Buggy -->
+        <div class="container" id="containerPasseioBuggy">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4 col-xs-12 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Passeio de Buggy Litoral Norte</div>
+                        <div class="panel-body">
+                            <img src="imagens/buggy1.jpg" class="img-responsive">
+                        </div>
+                        <div class="panel-footer" id="buggyNorte"></div>
+                    </div>
+                    <div class="form-group">
+                        <label> Digite a quantidade de pessoas:</label>
+                        <div class="col-md-10 col-xs-7">
+                            <input type="number" class="form-control" placeholder="Min. 2 e Máx. 4" min="2" max="4" id="quantidadePessoasNorte">
+                        </div>
+                        <div class="col-md-2 col-xs-5">
+                            <button type="button" class="btn btn-default" onclick="valorBuggyNorte()">OK</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Passeio de Buggy Litoral Sul</div>
+                        <div class="panel-body">
+                            <img src="imagens/buggy2.jpg" class="img-responsive">
+                        </div>
+                        <div class="panel-footer" id="buggySul"></div>
+                    </div>
+                    <div class="form-group">
+                        <label> Digite a quantidade de pessoas:</label>
+                        <div class="col-md-10 col-xs-7">
+                            <input type="number" class="form-control" placeholder="Min. 2 e Máx. 4" min="2" max="4" id="quantidadePessoasSul">
+                        </div>
+                        <div class="col-md-2 col-xs-5">
+                            <button type="button" class="btn btn-default" onclick="valorBuggySul()">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <!-- Contato -->
+        <div class="row" id="linhaContato">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <h4>Entre em contato conosco para ter mais informações!</h4>
+                <p>
+                    <span class="glyphicon glyphicon-envelope">
+                        <b>Email:</b>
+                        <i style="font-family: 'Merriweather', serif;"> p0_travelagencia@gmail.com</i>
+                    </span>
+                </p>
+                <p>
+                    <span class="glyphicon glyphicon-time">
+                        <b>Horário:</b>
+                        <i style="font-family: 'Merriweather', serif;"> Segunda à Sexta - 6h às 22h;</i>
+                        <p>
+                            <i>Sábado e Domingo - 6h às 20:00h</i>
+                        </p>
+                    </span>
+                </p>
+                <p>
+                    <span class="glyphicon glyphicon-phone">
+                        <b>Telefone:</b>
+                        <i style="font-family: 'Merriweather', serif;">(81)95555-5555</i>
+                    </span>
+                </p>
+            </div>
+            <!--Coluna Formulario-->
+            <div class="col-md-8 col-sm-12 col-xs-12" id="colunaFormulario">
+                <form>
+                    <div class="row">
+                        <!--Linha 'Nome' e 'Telefone'-->
+                        <div class="col-md-8 form-group">
+                            <input class="form-control" id="nome" name="nome" placeholder="Nome" type="text" required>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <input class="form-control" id="telefone" name="telefone" placeholder="Telefone" type="text">
+                        </div>
+                    </div>
+                    <!-- Linha 'email', 'endereço' e 'mensagem' -->
+                    <div class="row">
+                        <div class="col-md-5 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="E-mail" type="email" required>
+                        </div>
+                        <div class="col-md-7 form-group">
+                            <input class="form-control" id="endereco" name="endereco" placeholder="Endereço" type="text" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Mensagem" rows="3"></textarea>
+                    <div class="row">
+                        <!-- Linha botão 'enviar' -->
+                        <div class="col-md-12 form-group">
+                            <button class="btn btn-default" type="submit" id="buttonSubmit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Footer(Rodapé) -->
+    <footer class="container-fluid">
+        <div class="row">
+            <!-- Localização no Mapa -->
+            <div class="col-md-4 col-xs-12 col-sm-4" style="border-right: 1px solid grey">
+                <div id="googleMap"></div>
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-4" style="height: 100%; border-right: 1px solid grey;">
+                <h3>Encontre-nos</h3>
+                <p>Rua João Fernandes de Lima, 001</p>
+                <p>Recife - PE</p>
+                <p>CEP: 50000-050</p>
+                <br>
+                <br>
+                <p>Dados da Empresa P Travel Ltda ME</p>
+                <p>CNPJ: 00.000.000/0000-00</p>
+            </div>
+            <div class="col-md-4 col-xs-12 col-sm-4">
+                <h3>Redes Sociais</h3>
+                <!--Icone do Instagram-->
+                <a class="btn btn-social-icon btn-instagram" target="_blank" href="https://www.instagram.com/ptravel/">
+                    <span class="fa fa-instagram"></span>
+                </a>
+                <!--Icone do Facebook-->
+                <a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/P0_Ttravel/">
+                    <span class="fa fa-facebook"></span>
+                </a>
+                <!-- Icone do Pinterest -->
+                <a class="btn btn-social-icon btn-pinterest" target="_blank" href="https://br.pinterest.com/p0_ttravel/">
+                    <span class="fa fa-pinterest"></span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+<!-- Modals -->
+    <!--Modal Lazer 1 -->
+    <div id="modalLazer1" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Embarcação 100% Lazer</h4>
+                </div>
+                <div class="modal-body">
+                    <li>Capacidade para até 120 pessoas;</li>
+
+                    <li>Piscina interna de hidromassagem com rede;</li>
+
+                    <li>Bar com cozinha regional a bordo;</li>
+
+                    <li>Churrasqueira a bordo;</li>
+
+                    <li>Mesas e cadeiras;</li>
+
+                    <li>1º andar coberto para proteção do sol, com mesas fixas;</li>
+
+                    <li>Mesa de som com 4 canais e microfone;</li>
+
+                    <li>Som com entrada USB e MP3 disponível;</li>
+
+                    <li>WC masculino e WC feminino;</li>
+
+                    <li>Equipada com material de segurança e coletes salva vidas, vistoriada pela Capitania dos Portos da Paraíba;</li>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Lazer 2 -->
+    <div id="modalLazer2" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Embarcação 100% Lazer II</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Capacidade para até 30 pessoas;</li>
+                        <li>Área coberta para proteção do sol;</li>
+                        <li>Equipada com material de segurança e coletes salva vidas, vistoriada pela Capitania dos Portos da Paraíba;</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Lazer 3 -->
+    <div id="modalLazer3" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Embarcação 100% Lazer III</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Capacidade para até 180 pessoas;</li>
+                        <li>Churrasqueira a bordo;</li>
+                        <li>1º andar coberto para proteção do sol;</li>
+                        <li>Mesa de som com microfone;</li>
+                        <li>Som com entrada USB e MP3 disponível;</li>
+                        <li>Mesas e cadeiras;</li>
+                        <li>Serviço de som ambiente;</li>
+                        <li>WC;</li>
+                        <li>Equipada com material de segurança e coletes salva vidas, vistoriada pela Capitania dos Portos da Paraíba;</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Lazer 4 -->
+    <div id="modalLazer4" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Embarcação 100% Lazer IV</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Capacidade para até 70 pessoas;</li>
+                        <li>Churrasqueira a bordo;</li>
+                        <li>1º andar coberto para proteção do sol;</li>
+                        <li>Mesa de som com microfone;</li>
+                        <li>Som com entrada USB e MP3 disponível;</li>
+                        <li>Mesas e cadeiras;</li>
+                        <li>Serviço de som ambiente;</li>
+                        <li>WC;</li>
+                        <li>Equipada com material de segurança e coletes salva vidas, vistoriada pela Capitania dos Portos da Paraíba;</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Lazer 5 -->
+    <div id="modalLazer5" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Embarcação 100% Lazer V</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Capacidade para até 8 pessoas;</li>
+                        <li>Som com entrada USB e MP3 disponível;</li>
+                        <li>Equipada com material de segurança e coletes salva vidas, vistoriada pela Capitania dos Portos da Paraíba;</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Lazer 6 -->
+    <div id="modalLazer6" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Embarcação 100% Lazer VI</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Capacidade para até 90 pessoas;</li>
+                        <li>Churrasqueira a bordo;</li>
+                        <li>1º andar coberto para proteção do sol;</li>
+                        <li>Mesa de som com microfone;</li>
+                        <li>Som com entrada USB e MP3 disponível;</li>
+                        <li>Mesas e cadeiras;</li>
+                        <li>Serviço de som ambiente;</li>
+                        <li>WC;</li>
+                        <li>Equipada com material de segurança e coletes salva vidas, vistoriada pela Capitania dos Portos da Paraíba;</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Lazer 7 -->
+    <div id="modalLazer7" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Embarcação 100% Lazer VII</h4>
+                </div>
+                <div class="modal-body">
+                    <li>Capacidade para até 5 pessoas;</li>
+                    <li>Som com entrada USB e MP3 disponível;</li>
+                    <li>Equipada com material de segurança e coletes salva vidas, vistoriada pela Capitania dos Portos da Paraíba;</li>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Lazer 10 -->
+    <div id="modalLazer10" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Embarcação 100% Lazer 10</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Capacidade para até 330 pessoas;</li>
+                        <li>Churrasqueira a bordo;</li>
+                        <li>Bar com cozinha regional a bordo;</li>
+                        <li>1º andar coberto para proteção do sol;</li>
+                        <li>Mesa de som com 4 canais e microfone;</li>
+                        <li>Som com entrada USB e MP3 disponível;</li>
+                        <li>Mesas e cadeiras;</li>
+                        <li>Serviço de som ambiente;</li>
+                        <li>WC masculino e feminino;</li>
+                        <li>Equipada com material de segurança e coletes salva vidas, vistoriada pela Capitania dos Portos da Paraíba;</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="jsPasseios.js"></script>
+    <script src="https://use.fontawesome.com/a6b259f3b5.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJharSv5PuvpwpeMDolWUDNP71c8nkljs&callback=myMap"></script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+body {
+    background: linear-gradient(to bottom, rgb(235, 232, 243), #ED6436);
+    font-family: 'Merriweather', serif;
+}
+
+.navbar {
+    background-color: #13322D;
+    border: none;
+}
+
+.navbar-toggle {
+    border: none;
+}
+
+.icon-bar {
+    background-color: white !important;
+}
+
+.navbar-toggle:focus, .navbar-toggle:hover {
+    background-color: #13322D !important;
+}
+
+.nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after {
+    clear: none;
+}
+
+@media screen and (max-width: 766px) {
+    .navbar-text {
+        position: relative;
+        top: 3px;
+        width: 165px;
+        margin-left: 92px !important;
+    }
+
+    .btn-block {
+        white-space: normal;
+    }
+
+    #imagemBanner {
+        margin-top: 67px !important;
+    }
+}
+
+
+.navbar-text {
+    position: relative;
+    margin-left: 60px;
+    color: white !important;
+}
+
+#logo {
+    position: relative;
+    height: 50px;
+    top: -20px;
+}
+
+#myNavbar a {
+    color: white;
+    font-weight: bold;
+}
+
+#imagemBanner {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#sobreEmpresa {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+h5 {
+    text-align: center;
+    color: rgb(26, 24, 114);
+    font-weight: bold;
+}
+
+#imagem100Lazer {
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+
+#tiposPasseios {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+#buttonPasseio1, #buttonPasseio2{
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-color: transparent;
+    /* margin-right: 50%; */
+}
+
+#buttonPasseio1 {
+    background-color: #FEBD51;
+    margin-bottom: 140px;
+}
+
+#buttonPasseio2 {
+    background-color: #0CB7F4;
+    margin-bottom: 140px;
+}
+
+#containerPasseioBarco, #containerPasseioBuggy {
+    display: none;
+    padding-bottom: 50px;
+}
+
+.panel-heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.panel-footer {
+    text-align: center;
+    color: #FF3600;
+    font-weight: bold;
+}
+
+.panel-body {
+    /* background-color: rgb(184, 196, 221); */
+    background-color: white;
+}
+
+.col-md-10 {
+    padding-left: 0px;
+}
+
+#buttonTransfer {
+    margin-bottom: 10px;
+}
+
+#quantidadePessoasNorte {
+    margin-bottom: 10px;
+}
+
+.form-control, .btn-default {
+    background-color: #ECCCCB;
+    border: 0;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #13322D;
+    padding-top: 40px;
+    margin-top: 40px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#googleMap {
+    width: 80%;
+    height: 250px;
+    left: 9%;
+}
+
+.btn-social-icon, .btn-social-icon:hover {
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: #FEBD51;
+}
+
+.modal-header {
+    background-color: #13322D;
+    color: white;
+    font-weight: bold;
+}
